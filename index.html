@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STOrank - NO.1 STO 커뮤니티</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #fff;
+    }
+
+    .bg-cover {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('/background.avif') no-repeat center center;
+      background-size: cover;
+      z-index: -1;
+    }
+
+    .bg-darken {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+
+    header {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 3;
+      padding: 20px;
+    }
+
+    header img {
+      width: 133px; /* Adjust to your logo's aspect ratio */
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .content h1 {
+      font-size: 3.125rem;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 1.625rem;
+      margin-bottom: 20px;
+    }
+
+    .email-form {
+      max-width: 450px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .email-form input, .email-form button {
+      height: 36px; /* 60% of the previous 60px height */
+    }
+
+    .email-form input {
+      flex: 1;
+      padding: 10px;
+      margin-right: 10px;
+      border: none;
+      font-size: 16px;
+    }
+
+    .email-form button {
+      border: none;
+      padding: 10px 20px 45px 20px; /* Adjust padding to vertically center the text */
+      background-color: #e50914;
+      color: white;
+      font-size: 1.625rem;
+      cursor: pointer;
+      line-height: 36px; /* Same as height to vertically align the text */
+    }
+
+    .email-form button:hover {
+      background-color: #f40612;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="bg-cover"></div>
+  <div class="bg-darken"></div>
+  <header>
+    <img src="/orange.png" alt="STOrank Logo">
+  </header>
+  <div class="content">
+    <h1>STOrank - 증권토큰 투자의 나침반</h1>
+  <p>쉽고 빠르게 증권 토큰 시장의 흐름을 파악하세요.</p>
+  <p>실시간 시장 데이터와 전문적인 분석을 통해 정보에 기반한 투자 결정을 내리실 수 있습니다.</p>
+  <p>지금 바로 신청하셔서 STOrank서비스를 이용해보세요. 이메일로 보내드립니다.</p>
+    <div class="email-form">
+      <input type="email" placeholder="Email address">
+      <button>서비스신청</button>
+    </div>
+  </div>
+</body>
+</html>
